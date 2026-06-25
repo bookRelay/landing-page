@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tagline": "轻松发现新书",
+    "comingSoon": "应用即将上线"
+  },
+  "hero": {
+    "titleLine1": "找到与你",
+    "titleMatch": "match",
+    "titleLine2": "完美匹配的",
+    "titleLine3": "那本书",
+    "paragraph": "Bookrelay 为你提供精心挑选的书籍：探索独家书目，收藏喜欢的书，并在社区中交流想法。和同样热爱阅读的人分享你的旅程，让每一分钟都更有价值,在平台上记录你的阅读进度。",
+    "cta": "加入等待名单"
+  },
+  "howItWorks": {
+    "label": "如何使用？",
+    "titleLine1": "三个简单步骤，",
+    "titleItalic": "让你的书焕发新生",
+    "steps": {
+      "registrati": {
+        "title": "注册",
+        "text": "只需几步即可发现新书。无需提供个人信息：立即开始探索，让我们的首批精选内容启发你。"
+      },
+      "leggi": {
+        "title": "阅读",
+        "text": "选择一本书，设定阅读时间，沉浸在阅读中。应用会帮你养成阅读习惯，记录你投入阅读的每一刻。"
+      },
+      "condividi": {
+        "title": "分享",
+        "text": "加入社区，看看其他人在读什么，交流彼此的看法。寻求推荐，阅读书评，与同样热爱阅读的人畅谈书籍。"
+      }
+    }
+  },
+  "waitlist": {
+    "titleLine1": "想提前体验我们的",
+    "titleItalic": "应用吗？",
+    "paragraph": "留下你的邮箱，加入等待名单，获得平台的提前体验资格",
+    "form": {
+      "successTitle": "你已加入名单！",
+      "successText": "应用准备好提前体验时，我们会立即通知你。",
+      "title": "加入 Bookrelay 社区",
+      "description": "我们正在向有限数量的读者开放访问权限，他们希望在正式上线前抢先体验和测试平台。立即注册，获取邀请并近距离关注项目进展。最早注册的用户将优先体验新功能。",
+      "labelFirstName": "名字",
+      "labelLastName": "姓氏",
+      "labelEmail": "邮箱",
+      "labelInterest": "你最感兴趣的功能是？",
+      "placeholderFirstName": "你的名字",
+      "placeholderLastName": "你的姓氏",
+      "placeholderEmailUser": "name",
+      "placeholderEmailDomain": "example.com",
+      "placeholderInterest": "请选择一个选项",
+      "interestOptions": {
+        "scopri": "发现新书（滑动浏览）",
+        "leggi": "记录阅读与统计数据",
+        "scambio": "与其他读者交换书籍",
+        "community": "讨论与社区",
+        "tutto": "以上全部"
+      },
+      "errorDuplicate": "该邮箱已在等待名单中！",
+      "errorGeneric": "出现错误，请稍后再试。",
+      "submitting": "正在提交…",
+      "submit": "加入等待名单"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Bookrelay. 保留所有权利。",
+    "language": "语言"
+  }
+}

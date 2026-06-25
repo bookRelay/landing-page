@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tagline": "新しい本を簡単に見つけよう",
+    "comingSoon": "アプリ近日公開"
+  },
+  "hero": {
+    "titleLine1": "あなたに",
+    "titleMatch": "マッチする",
+    "titleLine2": "本を",
+    "titleLine3": "見つけよう",
+    "paragraph": "Bookrelayは、あなたのために選ばれた本を提案します。限定タイトルを探したり、お気に入りを保存したり、コミュニティで感想を交換したり。同じくらい読書を愛する仲間と歩みを共有し、時間を大切にしながらプラットフォーム上で読書の進み具合を記録できます。",
+    "cta": "ウェイトリストに登録"
+  },
+  "howItWorks": {
+    "label": "使い方",
+    "titleLine1": "あなたの本に新しい命を",
+    "titleItalic": "与える3つの簡単なステップ",
+    "steps": {
+      "registrati": {
+        "title": "登録する",
+        "text": "数ステップで新しい本を発見できます。個人情報は不要：今すぐ探索を始めて、最初のセレクションからインスピレーションを得ましょう。"
+      },
+      "leggi": {
+        "title": "読む",
+        "text": "本を選び、時間を設定して読書に集中。アプリが習慣づけをサポートし、本に向き合った時間を記録します。"
+      },
+      "condividi": {
+        "title": "共有する",
+        "text": "コミュニティに参加して、他の人が読んでいる本を見たり感想を比べたり。おすすめを聞いたり、レビューを読んだり、読書好きの仲間と本について語り合いましょう。"
+      }
+    }
+  },
+  "waitlist": {
+    "titleLine1": "アプリを先取りで",
+    "titleItalic": "試してみますか？",
+    "paragraph": "メールアドレスを登録してウェイトリストに参加し、プラットフォームへの早期アクセス権を手に入れましょう",
+    "form": {
+      "successTitle": "登録が完了しました！",
+      "successText": "早期アクセスの準備が整いましたら、すぐにご連絡します。",
+      "title": "Bookrelayコミュニティに参加",
+      "description": "正式リリース前にプラットフォームを体験・テストしたい読者の方を限定数で受け付けています。今すぐ登録して招待を受け取り、プロジェクトの進捗を近くで見守りましょう。早期登録者には新機能への先行アクセス権が付与されます。",
+      "labelFirstName": "名",
+      "labelLastName": "姓",
+      "labelEmail": "メールアドレス",
+      "labelInterest": "最も興味のある機能は？",
+      "placeholderFirstName": "お名前（名）",
+      "placeholderLastName": "お名前（姓）",
+      "placeholderEmailUser": "name",
+      "placeholderEmailDomain": "example.com",
+      "placeholderInterest": "オプションを選択",
+      "interestOptions": {
+        "scopri": "新しい本を発見する（スワイプ）",
+        "leggi": "読書記録と統計を追跡する",
+        "scambio": "他の読者と本を交換する",
+        "community": "ディスカッションとコミュニティ",
+        "tutto": "すべて"
+      },
+      "errorDuplicate": "このメールアドレスは既にウェイトリストに登録されています！",
+      "errorGeneric": "送信に失敗しました。後でもう一度お試しください。",
+      "submitting": "送信中…",
+      "submit": "ウェイトリストに登録"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Bookrelay. All rights reserved.",
+    "language": "言語"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tagline": "Découvrez de nouveaux livres facilement",
+    "comingSoon": "Application bientôt disponible"
+  },
+  "hero": {
+    "titleLine1": "Trouve le",
+    "titleMatch": "match",
+    "titleLine2": "avec le livre",
+    "titleLine3": "qui est fait pour toi",
+    "paragraph": "Bookrelay t'offre une sélection de livres pensée pour toi : explore des titres exclusifs, enregistre-les et échange des avis au sein de la communauté. Partage ton parcours avec celles et ceux qui aiment lire autant que toi, valorise ton temps et suis tes progrès sur la plateforme.",
+    "cta": "Rejoindre la liste d'attente"
+  },
+  "howItWorks": {
+    "label": "Comment ça marche ?",
+    "titleLine1": "Trois étapes simples pour donner",
+    "titleItalic": "une nouvelle vie à tes livres",
+    "steps": {
+      "registrati": {
+        "title": "Inscris-toi",
+        "text": "Découvre de nouveaux livres en quelques étapes. Aucune donnée personnelle requise : commence à explorer dès maintenant et laisse-toi inspirer par nos premières sélections."
+      },
+      "leggi": {
+        "title": "Lis",
+        "text": "Choisis un livre, définis ton temps et plonge dans la lecture. L'application t'aide à créer une habitude, en suivant les moments que tu consacres à tes livres."
+      },
+      "condividi": {
+        "title": "Partage",
+        "text": "Rejoins la communauté, découvre ce que lisent les autres et compare vos avis. Demande des conseils, lis des critiques et parle de livres avec celles et ceux qui partagent ta passion."
+      }
+    }
+  },
+  "waitlist": {
+    "titleLine1": "Tu veux essayer notre application",
+    "titleItalic": "en avant-première ?",
+    "paragraph": "Laisse ton email pour rejoindre la liste d'attente et obtenir un accès anticipé à notre plateforme",
+    "form": {
+      "successTitle": "Tu es sur la liste !",
+      "successText": "Nous t'écrirons dès que l'application sera prête pour l'accès anticipé.",
+      "title": "Rejoins la communauté Bookrelay",
+      "description": "Nous ouvrons l'accès à un nombre limité de lecteurs et lectrices qui souhaitent découvrir et tester la plateforme avant le lancement officiel. Inscris-toi aujourd'hui pour recevoir ton invitation et suivre de près l'évolution du projet. Les premières inscriptions auront un accès anticipé aux nouvelles fonctionnalités.",
+      "labelFirstName": "Prénom",
+      "labelLastName": "Nom",
+      "labelEmail": "Email",
+      "labelInterest": "Quelle fonctionnalité t'intéresse le plus ?",
+      "placeholderFirstName": "Ton prénom",
+      "placeholderLastName": "Ton nom",
+      "placeholderEmailUser": "nom",
+      "placeholderEmailDomain": "exemple.fr",
+      "placeholderInterest": "Sélectionne une option",
+      "interestOptions": {
+        "scopri": "Découvrir de nouveaux livres (swipe)",
+        "leggi": "Suivre ses lectures et statistiques",
+        "scambio": "Échanger des livres avec d'autres lecteurs",
+        "community": "Discussions et communauté",
+        "tutto": "Tout, à la fois"
+      },
+      "errorDuplicate": "Cet email est déjà sur la liste d'attente !",
+      "errorGeneric": "Une erreur est survenue. Merci de réessayer plus tard.",
+      "submitting": "Envoi en cours…",
+      "submit": "Rejoindre la liste d'attente"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Bookrelay. Tous droits réservés.",
+    "language": "Langue"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tagline": "새로운 책을 쉽게 발견하세요",
+    "comingSoon": "앱 출시 예정"
+  },
+  "hero": {
+    "titleLine1": "당신에게",
+    "titleMatch": "딱 맞는",
+    "titleLine2": "책과",
+    "titleLine3": "매치되세요",
+    "paragraph": "Bookrelay는 당신을 위해 선별된 도서를 제공합니다. 독점 타이틀을 탐색하고 저장하며, 커뮤니티 안에서 의견을 나눠보세요. 독서를 사랑하는 사람들과 여정을 공유하고, 시간을 소중히 여기며 플랫폼에서 독서 진행 상황을 확인할 수 있습니다.",
+    "cta": "대기자 명단에 등록하기"
+  },
+  "howItWorks": {
+    "label": "이용 방법",
+    "titleLine1": "당신의 책에 새로운 생명을 불어넣는",
+    "titleItalic": "세 가지 간단한 단계",
+    "steps": {
+      "registrati": {
+        "title": "가입하기",
+        "text": "몇 단계만으로 새로운 책을 발견하세요. 개인정보는 필요하지 않습니다. 지금 바로 탐색을 시작하고 첫 추천 도서에서 영감을 받아보세요."
+      },
+      "leggi": {
+        "title": "읽기",
+        "text": "책을 고르고 시간을 설정한 뒤 독서에 몰입하세요. 앱이 습관 형성을 도와주며, 책에 투자한 시간을 기록해 줍니다."
+      },
+      "condividi": {
+        "title": "공유하기",
+        "text": "커뮤니티에 참여해 다른 사람들이 무엇을 읽는지 확인하고 의견을 나눠보세요. 추천을 요청하고, 리뷰를 읽고, 같은 열정을 가진 사람들과 책에 대해 이야기해 보세요."
+      }
+    }
+  },
+  "waitlist": {
+    "titleLine1": "저희 앱을",
+    "titleItalic": "미리 체험해보시겠어요?",
+    "paragraph": "이메일을 남겨 대기자 명단에 등록하고 플랫폼 얼리 액세스 권한을 받아보세요",
+    "form": {
+      "successTitle": "등록이 완료되었습니다!",
+      "successText": "얼리 액세스 준비가 완료되면 바로 연락드리겠습니다.",
+      "title": "Bookrelay 커뮤니티에 참여하기",
+      "description": "공식 출시 전에 플랫폼을 체험하고 테스트하고 싶은 독자분들을 한정된 인원으로 모집하고 있습니다. 지금 가입하면 초대장을 받고 프로젝트의 진행 상황을 가까이서 지켜볼 수 있습니다. 초기 가입자에게는 신규 기능에 대한 얼리 액세스가 제공됩니다.",
+      "labelFirstName": "이름",
+      "labelLastName": "성",
+      "labelEmail": "이메일",
+      "labelInterest": "가장 관심 있는 기능은 무엇인가요?",
+      "placeholderFirstName": "이름을 입력하세요",
+      "placeholderLastName": "성을 입력하세요",
+      "placeholderEmailUser": "name",
+      "placeholderEmailDomain": "example.com",
+      "placeholderInterest": "옵션을 선택하세요",
+      "interestOptions": {
+        "scopri": "새로운 책 발견하기 (스와이프)",
+        "leggi": "독서 기록 및 통계 추적",
+        "scambio": "다른 독자와 책 교환하기",
+        "community": "토론 및 커뮤니티",
+        "tutto": "모두 다"
+      },
+      "errorDuplicate": "이 이메일은 이미 대기자 명단에 등록되어 있습니다!",
+      "errorGeneric": "전송에 실패했습니다. 나중에 다시 시도해 주세요.",
+      "submitting": "전송 중…",
+      "submit": "대기자 명단에 등록하기"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Bookrelay. All rights reserved.",
+    "language": "언어"
+  }
+}

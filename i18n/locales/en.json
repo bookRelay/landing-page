@@ -1,0 +1,68 @@
+{
+  "header": {
+    "tagline": "Discover new books easily",
+    "comingSoon": "App coming soon"
+  },
+  "hero": {
+    "titleLine1": "Find your",
+    "titleMatch": "match",
+    "titleLine2": "with the book",
+    "titleLine3": "that's right for you",
+    "paragraph": "Bookrelay offers you a selection of books picked just for you: explore exclusive titles, save them and exchange opinions within the community. Share your journey with fellow readers, make the most of your time and track your progress on the platform.",
+    "cta": "Join the waitlist"
+  },
+  "howItWorks": {
+    "label": "How it works",
+    "titleLine1": "Three simple steps to give",
+    "titleItalic": "your books a new life",
+    "steps": {
+      "registrati": {
+        "title": "Sign up",
+        "text": "Discover new books in just a few steps. No personal data required: start exploring right away and get inspired by our first selections."
+      },
+      "leggi": {
+        "title": "Read",
+        "text": "Pick a book, set your time and dive into reading. The app helps you build a habit, keeping track of the moments you dedicate to your books."
+      },
+      "condividi": {
+        "title": "Share",
+        "text": "Join the community, see what others are reading and compare your opinions. Ask for recommendations, read reviews and talk about books with people who share your passion."
+      }
+    }
+  },
+  "waitlist": {
+    "titleLine1": "Want to try our app",
+    "titleItalic": "in preview?",
+    "paragraph": "Leave your email to join the waitlist and get early access to our platform",
+    "form": {
+      "successTitle": "You're on the list!",
+      "successText": "We'll write to you as soon as the app is ready for early access.",
+      "title": "Join the Bookrelay community",
+      "description": "We're opening access to a limited number of readers who want to discover and test the platform before the official launch. Sign up today to receive your invite and follow the project's progress closely. Early sign-ups will get early access to new features.",
+      "labelFirstName": "First name",
+      "labelLastName": "Last name",
+      "labelEmail": "Email",
+      "labelInterest": "Which feature interests you most?",
+      "placeholderFirstName": "Your first name",
+      "placeholderLastName": "Your last name",
+      "placeholderEmailUser": "name",
+      "placeholderEmailDomain": "example.com",
+      "placeholderInterest": "Select an option",
+      "interestOptions": {
+        "scopri": "Discovering new books (swipe)",
+        "leggi": "Tracking reading & stats",
+        "scambio": "Swapping books with other readers",
+        "community": "Discussions & community",
+        "tutto": "All of it"
+      },
+      "errorDuplicate": "This email is already on the waitlist!",
+      "errorGeneric": "Something went wrong. Please try again later.",
+      "submitting": "Submitting…",
+      "submit": "Join the waitlist"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Bookrelay. All rights reserved.",
+    "language": "Language"
+  }
+}
