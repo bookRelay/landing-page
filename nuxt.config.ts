@@ -29,6 +29,9 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        // Hardcoded with the baseURL prefix above — files in public/ aren't
+        // auto-prefixed for plain <link> hrefs the way ~/assets imports are.
+        { rel: 'icon', type: 'image/x-icon', href: '/landing-page/favicon.ico' },
       ],
     },
   },
