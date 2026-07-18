@@ -1,7 +1,7 @@
 # Bookrelay — Landing Page
 
-Landing page statica della waitlist di Bookrelay, sviluppata in **Nuxt 4** e pensata per
-essere ospitata su **GitHub Pages** (repo di progetto `landing-page`).
+Landing page statica della waitlist di Bookrelay, sviluppata in **Nuxt 4** e ospitata su
+**GitHub Pages** con dominio custom **bookrelay.it**.
 
 ## Stack
 
@@ -35,12 +35,8 @@ precedenza sul rilevamento automatico ai visite successive.
 ```bash
 npm install
 cp .env.example .env   # poi compila le variabili (vedi sotto)
-npm run dev            # http://localhost:3000/landing-page/
+npm run dev            # http://localhost:3000/
 ```
-
-> Nota: il sito ha `app.baseURL: '/landing-page/'` configurato in `nuxt.config.ts`
-> perché su GitHub Pages sarà servito da `https://<org>.github.io/landing-page/`.
-> Anche in locale va quindi visitato con quel prefisso nell'URL.
 
 ```bash
 npm run generate       # genera il sito statico in .output/public
@@ -194,11 +190,14 @@ ogni push su `main`.
 1. Crea la repo GitHub **`landing-page`** sotto il profilo/organizzazione Bookrelay.
 2. Vai su **Settings → Pages** della repo e in **Source** seleziona
    **GitHub Actions** (non "Deploy from a branch").
-3. Vai su **Settings → Secrets and variables → Actions** e crea questi 3 *repository secrets*:
+3. Sempre in **Settings → Pages**, imposta **Custom domain** = `bookrelay.it`
+   (il file `public/CNAME`, già presente nel repo, viene incluso nel sito generato
+   e serve a GitHub per riconoscere il dominio ad ogni deploy tramite Actions).
+4. Vai su **Settings → Secrets and variables → Actions** e crea questi 3 *repository secrets*:
    - `NUXT_PUBLIC_SUPABASE_URL`
    - `NUXT_PUBLIC_SUPABASE_ANON_KEY`
    - `NUXT_PUBLIC_GOOGLE_SCRIPT_URL`
-4. Inizializza git in questa cartella e fai il primo push:
+5. Inizializza git in questa cartella e fai il primo push:
 
 ```bash
 git init
@@ -209,10 +208,11 @@ git remote add origin https://github.com/<org-bookrelay>/landing-page.git
 git push -u origin main
 ```
 
-5. Il workflow parte automaticamente. Dopo ~1 minuto il sito sarà live su:
+6. Il workflow parte automaticamente. Dopo ~1 minuto (e la propagazione DNS di
+   `bookrelay.it` verso GitHub Pages) il sito sarà live su:
 
    ```
-   https://<org-bookrelay>.github.io/landing-page/
+   https://bookrelay.it
    ```
 
 ### Deploy successivi

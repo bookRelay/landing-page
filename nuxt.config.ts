@@ -11,10 +11,10 @@ export default defineNuxtConfig({
     preset: 'static',
   },
 
-  // Project page on GitHub Pages → https://<org>.github.io/landing-page/
-  // Every asset/link must be prefixed with this base path or it 404s in production.
+  // Served from the custom domain bookrelay.it (apex) via GitHub Pages,
+  // not a project page path — base stays at root.
   app: {
-    baseURL: '/landing-page/',
+    baseURL: '/',
     buildAssetsDir: '/_nuxt/',
     head: {
       title: 'Bookrelay — Fai match con il libro giusto per te',
@@ -29,9 +29,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        // Hardcoded with the baseURL prefix above — files in public/ aren't
-        // auto-prefixed for plain <link> hrefs the way ~/assets imports are.
-        { rel: 'icon', type: 'image/x-icon', href: '/landing-page/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
     },
   },
@@ -44,7 +42,7 @@ export default defineNuxtConfig({
   // strategy: 'no_prefix' keeps a single URL (no /en/, /fr/... routes) — the
   // language switches client-side, which fits a small static landing page best.
   i18n: {
-    baseUrl: '/landing-page/',
+    baseUrl: '/',
     defaultLocale: 'it',
     strategy: 'no_prefix',
     langDir: 'locales',
