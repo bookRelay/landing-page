@@ -31,6 +31,7 @@ function scrollToWaitlist() {
           class="font-serif italic text-ink/45 text-lg sm:text-xl mt-6 max-w-2xl mx-auto leading-relaxed"
         >
           {{ $t('hero.paragraph') }}
+          <span class="block mt-3 text-ink/60">{{ $t('hero.paragraphClosing') }}</span>
         </motion.p>
 
         <motion.div

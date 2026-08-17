@@ -8,25 +8,26 @@
     "titleMatch": "match",
     "titleLine2": "con el libro",
     "titleLine3": "perfecto para ti",
-    "paragraph": "Bookrelay te ofrece una selección de libros pensada para ti: explora títulos exclusivos, guárdalos e intercambia opiniones dentro de la comunidad. Comparte tu camino con quienes aman leer tanto como tú, dale valor a tu tiempo y monitorea tu progreso en la plataforma.",
+    "paragraph": "Olvida las distracciones digitales y hazle espacio a la lectura. Bookrelay te ayuda a descubrir tu próxima historia, seguir tu progreso y encontrar tu ritmo: tanto si quieres crear un nuevo hábito como si quieres darle aún más valor al que ya tienes.",
+    "paragraphClosing": "Tu tiempo vale: dedícaselo a los libros que amas.",
     "cta": "Únete a la lista de espera"
   },
   "howItWorks": {
     "label": "¿Cómo funciona?",
-    "titleLine1": "Tres simples pasos para darle",
-    "titleItalic": "una nueva vida a tus libros",
+    "titleLine1": "Del descubrimiento a la lectura:",
+    "titleItalic": "tu nuevo camino en tres simples pasos",
     "steps": {
       "registrati": {
-        "title": "Regístrate",
-        "text": "Descubre nuevos libros en pocos pasos. No se requieren datos personales: empieza a explorar ahora mismo y déjate inspirar por nuestras primeras selecciones."
+        "title": "Descubre y compra",
+        "text": "Encuentra el libro perfecto para ti. Ya prefieras uno nuevo o el encanto de uno de segunda mano, te ayudamos a encontrar enseguida la edición que estás buscando."
       },
       "leggi": {
-        "title": "Lee",
-        "text": "Elige un libro, define tu tiempo y sumérgete en la lectura. La app te ayuda a crear un hábito, registrando los momentos que dedicas a tus libros."
+        "title": "Lee y crea el hábito",
+        "text": "Define el tiempo que quieres dedicar, inicia la sesión y sumérgete en las páginas. Te ayudamos a mantener la constancia día tras día, sin distracciones."
       },
       "condividi": {
-        "title": "Comparte",
-        "text": "Únete a la comunidad, descubre qué leen los demás y compara tus opiniones. Pide recomendaciones, lee reseñas y habla de libros con quienes comparten tu pasión."
+        "title": "Monitorea y comparte",
+        "text": "Celebra tu esfuerzo. Sigue tus estadísticas de lectura, muestra tus logros y comparte tus resultados para inspirar a quienes te siguen."
       }
     }
   },

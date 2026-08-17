@@ -8,25 +8,26 @@
     "titleMatch": "match",
     "titleLine2": "with the book",
     "titleLine3": "that's right for you",
-    "paragraph": "Bookrelay offers you a selection of books picked just for you: explore exclusive titles, save them and exchange opinions within the community. Share your journey with fellow readers, make the most of your time and track your progress on the platform.",
+    "paragraph": "Forget digital distractions and make room for reading. Bookrelay helps you discover your next story, track your progress and find your rhythm: whether you want to build a new habit or get even more out of the one you already have.",
+    "paragraphClosing": "Your time is valuable — give it to the books you love.",
     "cta": "Join the waitlist"
   },
   "howItWorks": {
     "label": "How it works",
-    "titleLine1": "Three simple steps to give",
-    "titleItalic": "your books a new life",
+    "titleLine1": "From discovery to reading:",
+    "titleItalic": "your new journey in three simple steps",
     "steps": {
       "registrati": {
-        "title": "Sign up",
-        "text": "Discover new books in just a few steps. No personal data required: start exploring right away and get inspired by our first selections."
+        "title": "Discover and buy",
+        "text": "Find the perfect book for you. Whether you prefer a brand-new copy or the charm of a second-hand one, we help you track down the edition you're looking for right away."
       },
       "leggi": {
-        "title": "Read",
-        "text": "Pick a book, set your time and dive into reading. The app helps you build a habit, keeping track of the moments you dedicate to your books."
+        "title": "Read and build the habit",
+        "text": "Set the time you want to dedicate, start your session and dive into the pages. We help you stay consistent day after day, distraction-free."
       },
       "condividi": {
-        "title": "Share",
-        "text": "Join the community, see what others are reading and compare your opinions. Ask for recommendations, read reviews and talk about books with people who share your passion."
+        "title": "Track and share",
+        "text": "Celebrate your commitment. Keep track of your reading stats, show off your milestones and share your results to inspire the people who follow you."
       }
     }
   },
