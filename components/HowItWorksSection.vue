@@ -31,7 +31,28 @@ const activeStep = ref('registrati')
 </script>
 
 <template>
-  <section class="bg-linear-to-br from-terra to-[#8C4640] py-16 sm:py-24 px-4 sm:px-6">
+  <!--
+    `overflow-x-clip` non e' decorativo: e' il recinto dell'animazione qui sotto.
+
+    La colonna del telefono entra da destra (`:initial="{ x: 24 }"`), quindi
+    prima di partire sta 24px fuori posto. Su desktop avanza margine e non si
+    nota; su un telefono il padding laterale e' 16px, quindi 24 - 16 = 8px
+    sbordano dalla finestra. Misurato su quattro larghezze (390, 412, 430,
+    480): scrollWidth superava clientWidth di 8-9px su tutte.
+
+    Otto pixel sembrano niente e non lo sono: rendono la pagina trascinabile di
+    lato. Il lettore sposta la pagina con un dito senza volerlo, il titolo e le
+    card escono dal bordo, e sembra che il sito sia rotto — mentre a essere
+    fuori posto e' solo la finestra.
+
+    `clip` e non `hidden`: `hidden` farebbe di questa sezione un contenitore di
+    scorrimento, e un contenitore di scorrimento rompe `position: sticky` di
+    qualunque cosa ci finisca dentro un domani. `clip` taglia e basta.
+
+    Si taglia QUI e non sul body: un `overflow-x` globale spegnerebbe anche il
+    prossimo sbordo, che nessuno vedrebbe piu' arrivare.
+  -->
+  <section class="overflow-x-clip bg-linear-to-br from-terra to-[#8C4640] py-16 sm:py-24 px-4 sm:px-6">
     <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
       <div>
         <motion.p
