@@ -8,6 +8,10 @@ useHead({
     { name: 'description', content: computed(() => t('hero.paragraph')) },
   ],
 })
+
+// Provenienza letta all'arrivo: cambiando lingua l'indirizzo perde gli utm.
+const { getAttribution } = useAttribution()
+onMounted(getAttribution)
 </script>
 
 <template>

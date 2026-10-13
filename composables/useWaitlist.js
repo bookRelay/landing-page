@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
+import { useAttribution } from './useAttribution'
 
 let supabaseClient = null
 
@@ -24,9 +25,20 @@ async function postToGoogleSheets(url, payload) {
   })
 }
 
+// Con la provenienza (colonne della migrazione 013 del backend); se il database
+// non le ha ancora, di nuovo senza. Un iscritto perso per un dato di statistica
+// sarebbe un prezzo assurdo.
+async function insertWaitlist(supabase, row, attribution) {
+  if (!attribution) return supabase.from('waitlist').insert([row])
+  const result = await supabase.from('waitlist').insert([{ ...row, ...attribution }])
+  const missingColumn = result.error && (result.error.code === 'PGRST204' || /column/i.test(result.error.message ?? ''))
+  return missingColumn ? supabase.from('waitlist').insert([row]) : result
+}
+
 export function useWaitlist() {
   const config = useRuntimeConfig()
   const { t } = useI18n()
+  const { getAttribution } = useAttribution()
 
   async function submitWaitlist({ firstName, lastName, email, interest }) {
     const supabase = getSupabase(config)
@@ -34,12 +46,12 @@ export function useWaitlist() {
 
     const tasks = [
       supabase
-        ? supabase.from('waitlist').insert([{
+        ? insertWaitlist(supabase, {
             first_name: firstName,
             last_name:  lastName,
             email,
             interest,
-          }])
+          }, getAttribution())
         : Promise.reject(new Error('not configured')),
 
       config.public.googleScriptUrl
