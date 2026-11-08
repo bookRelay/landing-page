@@ -19,6 +19,9 @@ import WaitlistForm from './WaitlistForm.vue'
         <p class="font-serif italic text-ink/45 text-lg mt-4 max-w-lg leading-relaxed">
           {{ $t('waitlist.paragraph') }}
         </p>
+        <p class="font-serif italic text-ink/60 text-lg mt-3 max-w-lg leading-relaxed">
+          {{ $t('waitlist.paragraphClosing') }}
+        </p>
       </motion.div>
 
       <motion.div

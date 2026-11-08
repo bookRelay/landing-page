@@ -20,6 +20,7 @@ onMounted(getAttribution)
     <main>
       <HeroSection />
       <HowItWorksSection />
+      <HubSection />
       <WaitlistSection />
     </main>
     <AppFooter />

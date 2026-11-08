@@ -8,33 +8,57 @@
     "titleMatch": "match",
     "titleLine2": "with the book",
     "titleLine3": "that's right for you",
-    "paragraph": "Forget digital distractions and make room for reading. Bookrelay helps you discover your next story, track your progress and find your rhythm: whether you want to build a new habit or get even more out of the one you already have.",
-    "paragraphClosing": "Your time is valuable — give it to the books you love.",
-    "cta": "Join the waitlist"
+    "paragraph": "Discover new books with a swipe, organise your reading, find where to get the titles you choose and talk them over with other readers.",
+    "cta": "Discover Bookrelay"
   },
   "howItWorks": {
     "label": "How it works",
-    "titleLine1": "From discovery to reading:",
-    "titleItalic": "your new journey in three simple steps",
     "steps": {
-      "registrati": {
-        "title": "Discover and buy",
-        "text": "Find the perfect book for you. Whether you prefer a brand-new copy or the charm of a second-hand one, we help you track down the edition you're looking for right away."
+      "match": {
+        "label": "Discover with the match",
+        "title": "Your next book, one swipe at a time.",
+        "text": "Bookrelay's suggestions start from the genres you like, the books you've loved and your reading goals.",
+        "text2": "Browse the titles, dig into the ones that catch your eye and find out why we're suggesting them."
       },
-      "leggi": {
-        "title": "Read and build the habit",
-        "text": "Set the time you want to dedicate, start your session and dive into the pages. We help you stay consistent day after day, distraction-free."
+      "libreria": {
+        "label": "Your library",
+        "title": "All your reading, in one place.",
+        "text": "Collect the books you want to read, the ones you've started and the ones you've finished. Organise your titles and find them easily in your Library.",
+        "text2": ""
       },
-      "condividi": {
-        "title": "Track and share",
-        "text": "Celebrate your commitment. Keep track of your reading stats, show off your milestones and share your results to inspire the people who follow you."
+      "reperimento": {
+        "label": "Finding it",
+        "title": "You've picked the book. Find out where to get it.",
+        "text": "For every title, see the ways to get hold of it: buy it new or used, or look for it in bookshops and libraries, when available.",
+        "text2": "Choose the option that suits you and go from discovery to reading."
+      },
+      "community": {
+        "label": "The community",
+        "title": "A book in common. Every read is richer when you can share it.",
+        "text": "Find readers who are reading the same title or share your interests.",
+        "text2": "Join discussions, share impressions and points of view, and create reading groups around a book or a topic. For one-to-one conversations, you can also chat with other readers."
       }
     }
   },
+  "hub": {
+    "badge": "Coming soon · Bookrelay Hubs",
+    "title": "Take your reading off the screen",
+    "text": "We're working on a map of Bookrelay Hubs: local spaces and meeting points where readers can get together, talk about books, join reading groups and swap books.",
+    "text2": "Places where conversations started online can continue in person, sparking new friendships and new chances to share books.",
+    "partner": {
+      "eyebrow": "For local spaces and businesses",
+      "badge": "In development",
+      "title": "Want to become a Bookrelay Hub?",
+      "text": "We're designing a dashboard for the spaces that join the network. It will let you present your venue, promote events and initiatives, create reading groups and bring readers together to meet and swap books.",
+      "text2": "Get in touch to learn about the project and register your interest.",
+      "cta": "Contact us",
+      "mailSubject": "Becoming a Bookrelay Hub"
+    }
+  },
   "waitlist": {
-    "titleLine1": "Want to try our app",
-    "titleItalic": "in preview?",
-    "paragraph": "Leave your email to join the waitlist and get early access to our platform",
+    "titleLine1": "Discover. Read.",
+    "titleItalic": "Share.",
+    "paragraph": "Find your next book, organise your reading and share impressions and ideas with other readers.",
     "form": {
       "successTitle": "You're on the list!",
       "successText": "We'll write to you as soon as the app is ready for early access.",
@@ -59,8 +83,9 @@
       "errorDuplicate": "This email is already on the waitlist!",
       "errorGeneric": "Something went wrong. Please try again later.",
       "submitting": "Submitting…",
-      "submit": "Join the waitlist"
-    }
+      "submit": "Request early access"
+    },
+    "paragraphClosing": "Start your journey with Bookrelay."
   },
   "footer": {
     "rights": "© {year} Bookrelay. All rights reserved.",

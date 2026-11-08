@@ -2,10 +2,11 @@
 import { motion } from 'motion-v'
 import PhoneFrame from './PhoneFrame.vue'
 import PhoneVideo from './PhoneVideo.vue'
-import swipeVideo from '~/assets/video/swipe.mp4'
+import swipeVideo from '~/assets/video/Match.mp4'
 
-function scrollToWaitlist() {
-  document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })
+// "Scopri Bookrelay" porta alle funzioni: la lista d'attesa resta in fondo
+function scrollToFeatures() {
+  document.getElementById('come-funziona')?.scrollIntoView({ behavior: 'smooth' })
 }
 </script>
 
@@ -31,7 +32,6 @@ function scrollToWaitlist() {
           class="font-serif italic text-ink/45 text-lg sm:text-xl mt-6 max-w-2xl mx-auto leading-relaxed"
         >
           {{ $t('hero.paragraph') }}
-          <span class="block mt-3 text-ink/60">{{ $t('hero.paragraphClosing') }}</span>
         </motion.p>
 
         <motion.div
@@ -43,7 +43,7 @@ function scrollToWaitlist() {
           <button
             type="button"
             class="bg-terra hover:bg-terra/90 text-white text-base font-semibold px-8 py-4 rounded-full transition-colors shadow-lg shadow-terra/20"
-            @click="scrollToWaitlist"
+            @click="scrollToFeatures"
           >
             {{ $t('hero.cta') }}
           </button>

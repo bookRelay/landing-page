@@ -8,33 +8,57 @@
     "titleMatch": "match",
     "titleLine2": "con il libro",
     "titleLine3": "giusto per te",
-    "paragraph": "Dimentica le distrazioni digitali e fai spazio alla lettura. Bookrelay ti aiuta a scoprire la tua prossima storia, tracciare i tuoi progressi e trovare il tuo ritmo: che tu voglia costruire una nuova abitudine o dare ancora più valore a quella che hai già.",
-    "paragraphClosing": "Il tuo tempo ha valore, dedicalo ai libri che ami.",
-    "cta": "Entra in lista d'attesa"
+    "paragraph": "Scopri nuovi libri con lo swipe, organizza le tue letture, trova dove reperire i titoli che scegli e confrontati con altri lettori.",
+    "cta": "Scopri Bookrelay"
   },
   "howItWorks": {
     "label": "Come funziona?",
-    "titleLine1": "Dalla scoperta alla lettura:",
-    "titleItalic": "il tuo nuovo percorso in tre semplici passi",
     "steps": {
-      "registrati": {
-        "title": "Scopri e acquista",
-        "text": "Trova il libro perfetto per te. Che tu preferisca il nuovo o il fascino dell'usato, ti aiutiamo a trovare subito l'edizione che stai cercando."
+      "match": {
+        "label": "Scopri con il match",
+        "title": "Il tuo prossimo libro, uno swipe alla volta.",
+        "text": "Le proposte di Bookrelay partono dai generi che preferisci, dai libri che hai amato e dai tuoi obiettivi di lettura.",
+        "text2": "Scorri i titoli, approfondisci quelli che ti incuriosiscono e scopri perché te li suggeriamo."
       },
-      "leggi": {
-        "title": "Leggi e costruisci l'abitudine",
-        "text": "Imposta il tempo che vuoi dedicare, avvia la sessione e immergiti nelle pagine. Ti aiutiamo a mantenere la costanza giorno dopo giorno, senza distrazioni."
+      "libreria": {
+        "label": "La tua libreria",
+        "title": "Tutte le tue letture, in un unico spazio.",
+        "text": "Raccogli i libri che vuoi leggere, quelli che hai iniziato e quelli che hai terminato. Organizza i tuoi titoli e ritrovali facilmente nella tua Libreria.",
+        "text2": ""
       },
-      "condividi": {
-        "title": "Monitora e condividi",
-        "text": "Celebra il tuo impegno. Tieni traccia delle tue statistiche di lettura, mostra i tuoi traguardi e condividi i risultati per ispirare chi ti segue."
+      "reperimento": {
+        "label": "Il reperimento",
+        "title": "Hai scelto il libro. Scopri dove trovarlo.",
+        "text": "Per ogni titolo, consulta le possibilità disponibili per reperirlo: acquistarlo nuovo o usato oppure cercarlo presso librerie e biblioteche, quando disponibile.",
+        "text2": "Scegli il canale più adatto a te e passa dalla scoperta alla lettura."
+      },
+      "community": {
+        "label": "La community",
+        "title": "Un libro in comune. Ogni lettura è più ricca quando puoi condividerla.",
+        "text": "Trova lettori che stanno leggendo lo stesso titolo o condividono i tuoi interessi.",
+        "text2": "Partecipa alle discussioni, condividi impressioni e punti di vista e crea gruppi di lettura dedicati a un libro o a un argomento. Per i confronti diretti, puoi anche dialogare con gli altri lettori in chat."
       }
     }
   },
+  "hub": {
+    "badge": "In arrivo · Hub Bookrelay",
+    "title": "Porta le letture fuori dallo schermo",
+    "text": "Stiamo lavorando a una mappa degli Hub Bookrelay: spazi e punti di incontro sul territorio in cui i lettori potranno ritrovarsi, discutere di libri, partecipare a gruppi di lettura e organizzare scambi di volumi.",
+    "text2": "Luoghi in cui le conversazioni nate online potranno continuare dal vivo, dando vita a nuove conoscenze e occasioni per condividere i libri.",
+    "partner": {
+      "eyebrow": "Per spazi e attività del territorio",
+      "badge": "In sviluppo",
+      "title": "Vuoi diventare un Hub Bookrelay?",
+      "text": "Stiamo progettando una dashboard dedicata agli spazi che entreranno nella rete. Permetterà di presentare il proprio luogo, promuovere eventi e iniziative, creare gruppi di lettura e favorire incontri e scambi di libri tra i lettori.",
+      "text2": "Entra in contatto con noi per conoscere il progetto e manifestare il tuo interesse.",
+      "cta": "Contattaci",
+      "mailSubject": "Diventare un Hub Bookrelay"
+    }
+  },
   "waitlist": {
-    "titleLine1": "Vuoi provare la nostra app",
-    "titleItalic": "in anteprima?",
-    "paragraph": "Lascia la tua email per entrare in lista d'attesa e ricevere l'accesso anticipato alla nostra piattaforma",
+    "titleLine1": "Scopri. Leggi.",
+    "titleItalic": "Condividi.",
+    "paragraph": "Trova il tuo prossimo libro, organizza le tue letture e condividi impressioni e idee con altri lettori.",
     "form": {
       "successTitle": "Sei in lista!",
       "successText": "Ti scriveremo non appena l'app sarà pronta per l'accesso anticipato.",
@@ -59,8 +83,9 @@
       "errorDuplicate": "Questa email è già in lista d'attesa!",
       "errorGeneric": "Invio non riuscito. Riprova più tardi.",
       "submitting": "Invio in corso…",
-      "submit": "Entra in lista d'attesa"
-    }
+      "submit": "Richiedi accesso anticipato"
+    },
+    "paragraphClosing": "Inizia il tuo percorso con Bookrelay."
   },
   "footer": {
     "rights": "© {year} Bookrelay. Tutti i diritti riservati.",
