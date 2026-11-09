@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "it.bookrelay.app",
+      "sha256_cert_fingerprints": [
+        "DE:45:FF:54:A7:65:43:4D:F4:71:FD:E1:E9:24:B1:73:E1:42:B6:4F:9F:11:A9:4E:3E:67:50:C0:9A:9F:F7:E7"
+      ]
+    }
+  }
+]
